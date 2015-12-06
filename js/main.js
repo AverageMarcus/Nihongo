@@ -45,7 +45,7 @@
 
         var translate = new Translate(result);
         translate.then(function(translated) {
-          var correct = (translated.toLowerCase() === currentTranslation.english.toLowerCase() && result === currentTranslation.kana);
+          var correct = (translated.toLowerCase() === currentTranslation.english.toLowerCase() || result === currentTranslation.kana);
           var resultClass = correct ? 'success' : 'failure';
           resultContainer.innerText += ' - ' + translated;
           resultContainer.setAttribute('class', resultClass);

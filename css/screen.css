@@ -1,0 +1,73 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1, main div {
+  padding: 10px;
+}
+
+#phrase {
+  font-size: 5em;
+}
+#phrase.formal:after {
+  content: '(formal)';
+  font-size: 0.5em;
+  margin: 5px;
+}
+#phrase.informal:after {
+  content: '(informal)';
+  font-size: 0.5em;
+  margin: 5px;
+}
+
+#result {
+  font-size: 2em;
+}
+#result.success {
+  color: green;
+}
+#result.success:after {
+  content: '✅';
+  margin: 5px;
+}
+#result.failure {
+  color: red;
+}
+#result.failure:after {
+  content: '❎';
+  margin: 5px;
+}
+
+#resultAction span {
+  display: none;
+}
+#resultAction.failure span.failure{
+  display: inline-block;
+}
+#resultAction.success span.success{
+  display: inline-block;
+}
+
+#buttons button:after {
+  font-size: 2em;
+  content: '🎤';
+}
+#buttons button.recording:after {
+  color: red;
+  content: '🔴';
+}

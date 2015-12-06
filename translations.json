@@ -1,0 +1,19 @@
+[
+  {
+    "english": "Hello",
+    "kana": "こんにちは",
+    "romaji": "konnichiha"
+  },
+  {
+    "english": "Good Morning",
+    "kana": "おはようございます",
+    "romaji": "Ohayō gozaimasu",
+    "formal": true
+  },
+  {
+    "english": "Good Morning",
+    "kana": "おはよう",
+    "romaji": "Ohayō",
+    "formal": false
+  }
+]

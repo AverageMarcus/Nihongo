@@ -15,5 +15,43 @@
     "kana": "おはよう",
     "romaji": "Ohayō",
     "formal": false
+  },
+  {
+    "english": "How are you?",
+    "kana": "お元気ですか",
+    "romaji": "o genki desu ka"
+  },
+  {
+    "english": "Goodbye",
+    "kana": "さよなら",
+    "romaji": "sayōnara"
+  },
+  {
+    "english": "Do you speak English?",
+    "kana": "英語はできますか",
+    "romaji": "Eigo wa dekimasu ka?"
+  },
+  {
+    "english": "Excuse me",
+    "kana": "すみません",
+    "romaji": "sumimasen"
+  },
+  {
+    "english": "Thanks",
+    "kana": "どうも",
+    "romaji": "dōmo",
+    "formal": false
+  },
+  {
+    "english": "Thank you",
+    "kana": "ありがとう",
+    "romaji": "arigatō",
+    "formal": false
+  },
+  {
+    "english": "Thank you",
+    "kana": "ありがとうございます",
+    "romaji": "arigatō gozaimasu",
+    "formal": true
   }
 ]

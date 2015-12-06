@@ -21,6 +21,10 @@ main h1, main div {
   padding: 10px;
 }
 
+#progress {
+  font-size: 2em;
+}
+
 #phrase {
   font-size: 5em;
 }
@@ -56,13 +60,26 @@ main h1, main div {
 #resultAction span {
   display: none;
 }
+#resultAction span,#resultAction button {
+  font-size: 2em;
+}
 #resultAction.failure span.failure{
   display: inline-block;
 }
 #resultAction.success span.success{
   display: inline-block;
 }
+#resultAction button {
+  display: block;
+  margin: auto;
+  height: 5vh;
+  width: 10vh;
+}
 
+#buttons button {
+  height: 10vh;
+  width: 20vw;
+}
 #buttons button:after {
   font-size: 2em;
   content: '🎤';

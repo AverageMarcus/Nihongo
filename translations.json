@@ -17,6 +17,23 @@
     "formal": false
   },
   {
+    "english": "Good Evening",
+    "kana": "こんばんは",
+    "romaji": "konbanwa"
+  },
+  {
+    "english": "Good Night",
+    "kana": "おやすみなさい",
+    "romaji": "oyasumi nasai",
+    "formal": true
+  },
+  {
+    "english": "Good Night",
+    "kana": "おやすみ",
+    "romaji": "oyasumi",
+    "formal": false
+  },
+  {
     "english": "How are you",
     "kana": "元気ですか",
     "romaji": "o genki desu ka"
@@ -53,5 +70,58 @@
     "kana": "ありがとうございます",
     "romaji": "arigatō gozaimasu",
     "formal": true
+  },
+  {
+    "english": "Pre-meal phrase",
+    "kana": "いただきます",
+    "romaji": "itadakimasu"
+  },
+  {
+    "english": "Post-meal phrase",
+    "kana": "ご馳走さまでした",
+    "romaji": "gochisōsama deshita"
+  },
+  {
+    "english": "What's your name",
+    "kana": "お名前はなんですか",
+    "romaji": "o-namae wa nan desu ka"
+  },
+  {
+    "english": "Hello",
+    "kana": "おっす",
+    "romaji": "ossu",
+    "formal": false
+  },
+  {
+    "english": "Hi",
+    "kana": "もしもし",
+    "romaji": "moshi moshi",
+    "formal": false
+  },
+  {
+    "english": "Welcome",
+    "kana": "ようこそ",
+    "romaji": "yōkoso"
+  },
+  {
+    "english": "Japanese",
+    "kana": "日本語",
+    "romaji": "nihongo"
+  },
+  {
+    "english": "I don't understand",
+    "kana": "わかりません",
+    "romaji": "wakarimasen",
+    "formal": true
+  },
+  {
+    "english": "Sorry",
+    "kana": "ごめんなさい",
+    "romaji": "gomen nasai"
+  },
+  {
+    "english": "Does anyone speak English",
+    "kana": "英語の話せる人はいませんか",
+    "romaji": "Eigo no hanaseru hito wa imasen ka"
   }
 ]

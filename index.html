@@ -7,16 +7,27 @@
 <body>
 
   <main>
-    <div id="progress"></div>
-    <h1 id="phrase"></h1>
-    <div id="buttons">
-      <button></button>
+    <div id="progress">
+      <div></div>
+      <progress></progress>
     </div>
-    <div id="result"></div>
-    <div id="resultAction">
+    <div id="phrase">
+      <div class="formal">(formal)</div>
+      <div class="informal">(informal)</div>
+      <h1></h1>
+      <div id="phraseButtons">
+        <button id="kanaButton">🈸</button>
+        <button id="playbackButton">🔈</button>
+      </div>
+    </div>
+    <div>
+      <button id="speakButton" class=""></button>
+    </div>
+    <div id="result" class="failure"></div>
+    <div id="resultAction" class="">
       <span class="failure">Sorry, that not right. Please try again.</span>
       <span class="success">
-        Well done!
+        <div>Well done!</div>
         <button id="nextButton">Next</button>
       </span>
     </div>

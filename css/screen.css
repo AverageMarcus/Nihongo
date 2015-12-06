@@ -21,22 +21,52 @@ main h1, main div {
   padding: 10px;
 }
 
-#progress {
+#progress div {
   font-size: 2em;
+  text-align: center;
 }
 
 #phrase {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 70%;
+  text-align: center
+}
+#phrase h1 {
   font-size: 5em;
 }
-#phrase.formal:after {
-  content: '(formal)';
-  font-size: 0.5em;
-  margin: 5px;
+#phrase .formal,
+#phrase .informal {
+  display: none;
 }
-#phrase.informal:after {
-  content: '(informal)';
-  font-size: 0.5em;
-  margin: 5px;
+#phrase.formal .formal,
+#phrase.informal .informal {
+  font-size: 1em;
+  display: block;
+}
+
+#phraseButtons {
+  padding: 0;
+}
+#phraseButtons button {
+  margin: 1px;
+  font-size: 2em;
+  line-height: 1.4em;
+  width: 2em;
+  display: inline-block
+}
+
+#speakButton {
+  width: 20vw;
+  font-size: 3em;
+}
+#speakButton:after {
+  font-size: 2em;
+  content: '🎤';
+}
+#speakButton.recording:after {
+  color: red;
+  content: '🔴';
 }
 
 #result {
@@ -53,15 +83,13 @@ main h1, main div {
   color: red;
 }
 #result.failure:after {
-  content: '❎';
+  content: '❌';
   margin: 5px;
 }
 
 #resultAction span {
   display: none;
-}
-#resultAction span,#resultAction button {
-  font-size: 2em;
+  text-align: center;
 }
 #resultAction.failure span.failure{
   display: inline-block;
@@ -69,22 +97,8 @@ main h1, main div {
 #resultAction.success span.success{
   display: inline-block;
 }
-#resultAction button {
+#nextButton {
   display: block;
   margin: auto;
-  height: 5vh;
-  width: 10vh;
-}
-
-#buttons button {
-  height: 10vh;
-  width: 20vw;
-}
-#buttons button:after {
-  font-size: 2em;
-  content: '🎤';
-}
-#buttons button.recording:after {
-  color: red;
-  content: '🔴';
+  font-size: 5em;
 }
